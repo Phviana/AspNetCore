@@ -1,0 +1,1346 @@
+[
+  {
+    "Code": "001",
+    "Name": "Lógica de Programação: Crie seus primeiros programas usando Javascript e HTML",
+    "Category": "Livros de Programação / Lógica",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/programacao-featured_large.png?v=1411490523",
+    "Price": 49.90
+  },
+  {
+    "Code": "002",
+    "Name": "Introdução à Computação: Da Lógica aos jogos com Ruby",
+    "Category": "Livros de Programação / Lógica",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/introducao-ruby-featured_9c39896f-ea67-4389-9f96-43a7a4de2b64_large.png?v=1432680156",
+    "Price": 49.90
+  },
+  {
+    "Code": "003",
+    "Name": "Scratch: Um jeito divertido de aprender programação",
+    "Category": "Livros de Programação / Lógica",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/YenvGixkQWFaq3oZpZr7dGXue8geB59fbwBHgS23orQ_large.jpg?v=1496341655",
+    "Price": 49.90
+  },
+  {
+    "Code": "004",
+    "Name": "Introdução à programação em C: Os primeiros passos de um desenvolvedor",
+    "Category": "Livros de Programação / Lógica",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/introducao-c-featured_large.png?v=1440011167",
+    "Price": 49.90
+  },
+  {
+    "Code": "005",
+    "Name": "App Inventor: Seus primeiros aplicativos Android",
+    "Category": "Livros de Programação / Lógica",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/CaMWGHXUhWVSWaH4aZazotOcKm3ckVDokQ0IQ5fM0KU_large.jpg?v=1512148345",
+    "Price": 49.90
+  },
+  {
+    "Code": "006",
+    "Name": "Construct 2: Crie o seu primeiro jogo multiplataforma",
+    "Category": "Livros de Programação / Lógica",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Construct-2_large.jpg?v=1516986781",
+    "Price": 49.90
+  },
+  {
+    "Code": "007",
+    "Name": "Aplicações Java para a web com JSF e JPA",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jsf-jpa-featured_large.png?v=1411486340",
+    "Price": 49.90
+  },
+  {
+    "Code": "008",
+    "Name": "Java SE 8 Programmer I: O guia para sua certificação Oracle Certified Associate",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/certificacao-java-featured_large.png?v=1431470873",
+    "Price": 49.90
+  },
+  {
+    "Code": "009",
+    "Name": "SOA aplicado: Integrando com web services e além",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/soa-webservices-featured_large.png?v=1411567532",
+    "Price": 49.90
+  },
+  {
+    "Code": "010",
+    "Name": "Design Patterns com Java: Projeto orientado a objetos guiado por padrões",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/design-patterns-featured_large.png?v=1411489099",
+    "Price": 49.90
+  },
+  {
+    "Code": "011",
+    "Name": "Spring MVC: Domine o principal framework web Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/spring-mvc-featured_large.png?v=1430247080",
+    "Price": 49.90
+  },
+  {
+    "Code": "012",
+    "Name": "Vire o jogo com Spring Framework",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/spring-framework-featured_large.png?v=1411567960",
+    "Price": 49.90
+  },
+  {
+    "Code": "013",
+    "Name": "Orientação a Objetos e SOLID para Ninjas: Projetando classes flexíveis",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/oo-solid-sumario-featured_large.png?v=1430310678",
+    "Price": 49.90
+  },
+  {
+    "Code": "014",
+    "Name": "Test-Driven Development: Teste e Design no Mundo Real",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/tdd-featured_large.png?v=1411567779",
+    "Price": 49.90
+  },
+  {
+    "Code": "015",
+    "Name": "Introdução à Arquitetura e Design de Software: Uma visão sobre a plataforma Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/arquitetura-java-featured_large.png?v=1411489903",
+    "Price": 49.90
+  },
+  {
+    "Code": "016",
+    "Name": "Desbravando Java e Orientação a Objetos: Um guia para o iniciante da linguagem",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/orientacao-objetos-java-featured_large.png?v=1416402140",
+    "Price": 49.90
+  },
+  {
+    "Code": "017",
+    "Name": "Java 8 Prático: Lambdas, Streams e os novos recursos da linguagem",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/java8-featured_large.png?v=1411490181",
+    "Price": 49.90
+  },
+  {
+    "Code": "018",
+    "Name": "JSF Eficaz: As melhores práticas para o desenvolvedor web Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jsf-eficaz-featured_large.png?v=1411490421",
+    "Price": 49.90
+  },
+  {
+    "Code": "019",
+    "Name": "Testes automatizados de software: Um guia prático",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/testes-de-software-featured_large.png?v=1429091541",
+    "Price": 49.90
+  },
+  {
+    "Code": "020",
+    "Name": "Java EE: Aproveite toda a plataforma para construir aplicações",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/G8Odq4Q1TChRM5NMkpWOfJLrIdpMhXpIMt0Qs0vOAJQ_size_mode_2_size_1024x768_large.jpeg?v=1447444684",
+    "Price": 49.90
+  },
+  {
+    "Code": "021",
+    "Name": "JPA Eficaz: As melhores práticas de persistência de dados em Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jpa-eficaz-featured_large.png?v=1411490333",
+    "Price": 49.90
+  },
+  {
+    "Code": "022",
+    "Name": "CDI: Integre as dependências e contextos do seu código Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cdi-featured_large.png?v=1416318025",
+    "Price": 49.90
+  },
+  {
+    "Code": "023",
+    "Name": "JavaFX: Interfaces com qualidade para aplicações desktop",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/javafx-featured_large.png?v=1411490259",
+    "Price": 49.90
+  },
+  {
+    "Code": "024",
+    "Name": "VRaptor: Desenvolvimento ágil para web com Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/vraptor-featured_large.png?v=1411568040",
+    "Price": 49.90
+  },
+  {
+    "Code": "025",
+    "Name": "Spring Boot: Acelere o desenvolvimento de microsserviços",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/7aXPAWM4TObeQ4OOv3mUY-mrVzqf23Ty6enIslrhXvM_large.jpg?v=1501874081",
+    "Price": 49.90
+  },
+  {
+    "Code": "026",
+    "Name": "Orientação a Objetos: Aprenda seus conceitos e suas aplicabilidades de forma efetiva",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Orientacao-a-Objetos-atualizado_large.jpg?v=1523648187",
+    "Price": 49.90
+  },
+  {
+    "Code": "027",
+    "Name": "Componentes Reutilizáveis em Java com Reflexão e Anotações",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/reflexao-anotacoes-featured_large.png?v=1416318033",
+    "Price": 49.90
+  },
+  {
+    "Code": "028",
+    "Name": "Segurança em aplicações Web",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/zhQRY_vRi2-piaw5QkZpc552fcVQhN6fe4zLRb4fXV8_large.jpg?v=1486751361",
+    "Price": 49.90
+  },
+  {
+    "Code": "029",
+    "Name": "Java 9: Interativo, reativo e modularizado",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-Java-9_large.png?v=1506020938",
+    "Price": 49.90
+  },
+  {
+    "Code": "030",
+    "Name": "Explorando APIs e bibliotecas Java: JDBC, IO, Threads, JavaFX e mais",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cover-apis-java_large.jpeg?v=1423244220",
+    "Price": 49.90
+  },
+  {
+    "Code": "031",
+    "Name": "OAuth 2.0: Proteja suas aplicações com o Spring Security OAuth2",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-OAuth-2.0_large.jpg?v=1506712443",
+    "Price": 49.90
+  },
+  {
+    "Code": "032",
+    "Name": "A lógica do jogo: Recriando clássicos da história dos videogames",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/5LRsiQ-WvbmgPiUbF3xe1Is6RcorSCk5tuYbR0A__3Q_size_mode_3_size_800x600_large.jpeg?v=1452288754",
+    "Price": 49.90
+  },
+  {
+    "Code": "033",
+    "Name": "Play Framework: Java para web sem Servlets e com diversão",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/play-framework-java-featured_large.png?v=1411566121",
+    "Price": 49.90
+  },
+  {
+    "Code": "034",
+    "Name": "iReport: Crie relatórios práticos e elegantes",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jlNlg52B6Zzu_qWAedayIhIayV1YvtMgFUJoqHmfjAo_size_mode_3_size_800x600_large.jpeg?v=1456777705",
+    "Price": 49.90
+  },
+  {
+    "Code": "035",
+    "Name": "Algoritmos em Java: Busca, ordenação e análise",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Algoritmos_large.jpg?v=1484936519",
+    "Price": 49.90
+  },
+  {
+    "Code": "036",
+    "Name": "MundoJ: Segurança com Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/mundoj-seguranca-java-featured_large.png?v=1417782470",
+    "Price": 49.90
+  },
+  {
+    "Code": "037",
+    "Name": "Refatorando com padrões de projeto: Um guia em Java",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-Refatoracao-Java_large.jpg?v=1509072714",
+    "Price": 49.90
+  },
+  {
+    "Code": "038",
+    "Name": "DSL: Quebre a barreira entre desenvolvimento e negócios",
+    "Category": "Livros de Programação / Java",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/ed1YIZAA4ox3jKxh2EeUSYMiJu7W4tM0paCt2R7sDoo_large.jpg?v=1497039745",
+    "Price": 49.90
+  },
+  {
+    "Code": "039",
+    "Name": "Desenvolvimento web com ASP.NET MVC",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/aspnet-mvc-featured_large.png?v=1411488896",
+    "Price": 49.90
+  },
+  {
+    "Code": "040",
+    "Name": "Test-Driven Development: Teste e Design no Mundo Real com .NET",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/tdd-dotnet-featured_large.png?v=1411567862",
+    "Price": 49.90
+  },
+  {
+    "Code": "041",
+    "Name": "ASP.NET MVC5: Crie aplicações web na plataforma Microsoft®",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/oYMlie2WOSoSAAMXetzaSsfNxsomFDB7b8dbi8uVY6o_size_mode_3_size_1280x960_large.jpeg?v=1463777619",
+    "Price": 49.90
+  },
+  {
+    "Code": "042",
+    "Name": "Orientação a Objetos: Aprenda seus conceitos e suas aplicabilidades de forma efetiva",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Orientacao-a-Objetos-atualizado_large.jpg?v=1523648187",
+    "Price": 49.90
+  },
+  {
+    "Code": "043",
+    "Name": "C# e Visual Studio: Desenvolvimento de aplicações desktop",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/csharp-featured_large.png?v=1443794473",
+    "Price": 49.90
+  },
+  {
+    "Code": "044",
+    "Name": "Web Services REST com ASP .NET Web API e Windows Azure",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/wv3KXH7UbTZekuaCTSDj_sIcXB-c4iy37jj7vhCbYCg_size_mode_3_size_800x600_large.jpeg?v=1460748537",
+    "Price": 49.90
+  },
+  {
+    "Code": "045",
+    "Name": "ASP.NET Core MVC: Aplicações modernas em conjunto com o Entity Framework",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/8ROjv5OVfks54j7FvDehRuYHax0-et96hKHyplURGe4_large.jpg?v=1518105341",
+    "Price": 49.90
+  },
+  {
+    "Code": "046",
+    "Name": "Orientação a Objetos em C#: Conceitos e implementações em .NET",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-Orientacao-a-Objetos-em-C_large.jpg?v=1510337180",
+    "Price": 49.90
+  },
+  {
+    "Code": "047",
+    "Name": "Programação funcional em .NET: Explore um novo universo",
+    "Category": "Livros de Programação / .NET",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Mjwq2cGKbD4-KWV7nQi4LpDvZrMH1AcxBKMZtbbpHMg_large.jpg?v=1507321170",
+    "Price": 49.90
+  },
+  {
+    "Code": "048",
+    "Name": "Desenvolvimento web com PHP e MySQL",
+    "Category": "Livros de Programação / PHP",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cover_large.jpg?v=1477073475",
+    "Price": 49.90
+  },
+  {
+    "Code": "049",
+    "Name": "PHP e Laravel: Crie aplicações web como um verdadeiro artesão",
+    "Category": "Livros de Programação / PHP",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/laravel-featured_large.png?v=1432129716",
+    "Price": 49.90
+  },
+  {
+    "Code": "050",
+    "Name": "Zend Certified Engineer: Descomplicando a certificação PHP",
+    "Category": "Livros de Programação / PHP",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/f7mrqKK-ihQQVJJT3EqE0PoFQk7_7_Hh5YPSj8uFSj8_size_mode_3_size_800x600_large.jpeg?v=1461353863",
+    "Price": 49.90
+  },
+  {
+    "Code": "051",
+    "Name": "CodeIgniter: Produtividade na criação de aplicações web em PHP",
+    "Category": "Livros de Programação / PHP",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/QtkUR6Crnu_Be5pS0hEiryIgiEVBW_PJO2xG3JZtQDQ_size_mode_3_size_1024x768_large.jpeg?v=1461959497",
+    "Price": 49.90
+  },
+  {
+    "Code": "052",
+    "Name": "Test-Driven Development: Teste e Design no Mundo Real com PHP",
+    "Category": "Livros de Programação / PHP",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cover_ce399913-9822-4509-ab16-fad1cfad2df3_large.jpeg?v=1421769309",
+    "Price": 49.90
+  },
+  {
+    "Code": "053",
+    "Name": "Do PHP ao Zend Framework: Domine as boas práticas",
+    "Category": "Livros de Programação / PHP",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Etu3wiG3JfYmXCSDHyZNeuIRALuu935zHiDkUwJu1zc_large.jpg?v=1521829030",
+    "Price": 49.90
+  },
+  {
+    "Code": "054",
+    "Name": "Coleção CodeIgniter + Zend PHP",
+    "Category": "Livros de Programação / PHP",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Colecao_CDC-CodeIgniter_Zend_large.jpg?v=1484687743",
+    "Price": 49.90
+  },
+  {
+    "Code": "055",
+    "Name": "Introdução à Computação: Da Lógica aos jogos com Ruby",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/introducao-ruby-featured_9c39896f-ea67-4389-9f96-43a7a4de2b64_large.png?v=1432680156",
+    "Price": 49.90
+  },
+  {
+    "Code": "056",
+    "Name": "A lógica do jogo: Recriando clássicos da história dos videogames",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/5LRsiQ-WvbmgPiUbF3xe1Is6RcorSCk5tuYbR0A__3Q_size_mode_3_size_800x600_large.jpeg?v=1452288754",
+    "Price": 49.90
+  },
+  {
+    "Code": "057",
+    "Name": "Desenvolva jogos com HTML5 Canvas e JavaScript",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-html-javascript-featured_large.png?v=1411488497",
+    "Price": 49.90
+  },
+  {
+    "Code": "058",
+    "Name": "Desenvolvimento de Jogos para Android: Explore sua imaginação com o framework Cocos2D",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-android-featured_large.png?v=1411488637",
+    "Price": 49.90
+  },
+  {
+    "Code": "059",
+    "Name": "Desenvolvimento de Jogos para iOS: Explore sua imaginação com o framework Cocos2D",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-ios-featured_large.png?v=1411488760",
+    "Price": 49.90
+  },
+  {
+    "Code": "060",
+    "Name": "Jogos em HTML5: Explore o mobile e física",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-mobile-cordova-featured_large.png?v=1413474311",
+    "Price": 49.90
+  },
+  {
+    "Code": "061",
+    "Name": "Jogos Android: Crie um game do zero usando classes nativas",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/games-android-featured_large.png?v=1433544805",
+    "Price": 49.90
+  },
+  {
+    "Code": "062",
+    "Name": "Lean Game Development: Desenvolvimento enxuto de jogos",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/AMlqJB2HHf2DrJmOv7CcDavslB_Bn28__SmqTx0Ry9I_large.jpg?v=1492115019",
+    "Price": 49.90
+  },
+  {
+    "Code": "063",
+    "Name": "Construct 2: Crie o seu primeiro jogo multiplataforma",
+    "Category": "Livros de Programação / Games",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Construct-2_large.jpg?v=1516986781",
+    "Price": 49.90
+  },
+  {
+    "Code": "064",
+    "Name": "Scala: Como escalar sua produtividade",
+    "Category": "Livros de Programação / Funcional",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/ZYMBZ75bNReKJshi21Zyxagim170TKgld9RHzznyaHo_large.jpg?v=1481302958",
+    "Price": 49.90
+  },
+  {
+    "Code": "065",
+    "Name": "Elixir: Do zero à concorrência",
+    "Category": "Livros de Programação / Funcional",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Lqh65YPrQtMLoE3f-VqbhuiQgdv6t4iOvD3plVQl_64_large.jpg?v=1491592655",
+    "Price": 49.90
+  },
+  {
+    "Code": "066",
+    "Name": "Haskell: Uma introdução à programação funcional",
+    "Category": "Livros de Programação / Funcional",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/gTRsVcwn5ZDw42nu4hw-fQJrUiTm7HkKH-nU-M_2w2g_large.jpg?v=1494618758",
+    "Price": 49.90
+  },
+  {
+    "Code": "067",
+    "Name": "OCaml: Programação funcional na prática",
+    "Category": "Livros de Programação / Funcional",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-OCAML_large.png?v=1420474743",
+    "Price": 49.90
+  },
+  {
+    "Code": "068",
+    "Name": "Programação funcional em .NET: Explore um novo universo",
+    "Category": "Livros de Programação / Funcional",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Mjwq2cGKbD4-KWV7nQi4LpDvZrMH1AcxBKMZtbbpHMg_large.jpg?v=1507321170",
+    "Price": 49.90
+  },
+  {
+    "Code": "069",
+    "Name": "Programação Funcional e Concorrente em Rust",
+    "Category": "Livros de Programação / Funcional",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/fjRCXKbPMIcdYdC5HjX_nh6yUyQwwxV6aIOE7G_nYS4_large.jpg?v=1519941170",
+    "Price": 49.90
+  },
+  {
+    "Code": "070",
+    "Name": "Aplicações web real-time com Node.js",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/node-ebook-atualizado_large.jpg?v=1516282095",
+    "Price": 49.90
+  },
+  {
+    "Code": "071",
+    "Name": "REST: Construa API's inteligentes de maneira simples",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/rest-featured_large.png?v=1411566684",
+    "Price": 49.90
+  },
+  {
+    "Code": "072",
+    "Name": "Ruby on Rails: coloque sua aplicação web nos trilhos",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/ruby-on-rails-featured_large.png?v=1411567203",
+    "Price": 49.90
+  },
+  {
+    "Code": "073",
+    "Name": "Mean: Full stack JavaScript para aplicações web com MongoDB, Express, Angular e Node",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/mean-featured_large.png?v=1423666173",
+    "Price": 49.90
+  },
+  {
+    "Code": "074",
+    "Name": "Swift: Programe para iPhone e iPad",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Swift-ebook_large.png?v=1418170204",
+    "Price": 49.90
+  },
+  {
+    "Code": "075",
+    "Name": "Python: Escreva seus primeiros programas",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/python3-featured_large.png?v=1441973789",
+    "Price": 49.90
+  },
+  {
+    "Code": "076",
+    "Name": "Ruby: Aprenda a programar na linguagem mais divertida",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/ruby-featured_large.png?v=1411567284",
+    "Price": 49.90
+  },
+  {
+    "Code": "077",
+    "Name": "Construindo APIs REST com Node.js",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/zGb75MbYhQ0_Rc954-y3OZOq9O169BSqY0WslUDTmBk_size_mode_3_size_1024x768_large.jpeg?v=1453497826",
+    "Price": 49.90
+  },
+  {
+    "Code": "078",
+    "Name": "Programando em Go: Crie aplicações com a linguagem do Google",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/google-go-featured_large.png?v=1411566554",
+    "Price": 49.90
+  },
+  {
+    "Code": "079",
+    "Name": "OAuth 2.0: Proteja suas aplicações com o Spring Security OAuth2",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-OAuth-2.0_large.jpg?v=1506712443",
+    "Price": 49.90
+  },
+  {
+    "Code": "080",
+    "Name": "Meteor: Criando aplicações web real-time com JavaScript",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/meteor-featured_large.png?v=1411565690",
+    "Price": 49.90
+  },
+  {
+    "Code": "081",
+    "Name": "Cucumber e RSpec: Construa aplicações Ruby com testes e especificações",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cucumber-rspec-tdd-bdd-featured_large.png?v=1411488288",
+    "Price": 49.90
+  },
+  {
+    "Code": "082",
+    "Name": "Falando de Grails: Altíssima produtividade no desenvolvimento web",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/grails-featured_large.png?v=1429737103",
+    "Price": 49.90
+  },
+  {
+    "Code": "083",
+    "Name": "Guia do mestre programador: pensando como pirata, evoluindo como jedi",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/F_rZcE1nCFDaz1yv2rMbvp0sp7ehJKYYt3i1s1zp9Jc_size_mode_3_size_1024x768_large.jpeg?v=1448907418",
+    "Price": 49.90
+  },
+  {
+    "Code": "084",
+    "Name": "Thoughtworks Antologia Brasil: Histórias de aprendizado e inovação",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/thoughtworks-antologia-featured_large.png?v=1416319002",
+    "Price": 49.90
+  },
+  {
+    "Code": "085",
+    "Name": "Introdução à programação em C: Os primeiros passos de um desenvolvedor",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/introducao-c-featured_large.png?v=1440011167",
+    "Price": 49.90
+  },
+  {
+    "Code": "086",
+    "Name": "Test Driven Development: Teste e design no mundo real com Ruby",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/tdd-ruby-featured_large.png?v=1411567682",
+    "Price": 49.90
+  },
+  {
+    "Code": "087",
+    "Name": "Fragmentos de um programador: Artigos e insights da carreira de um profissional",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/fK8PXm9P9bBjSdR_ayFDiKZwmyPJYH1Ayu6lOML3mSw_large.jpg?v=1477630013",
+    "Price": 49.90
+  },
+  {
+    "Code": "088",
+    "Name": "Desenvolvimento efetivo na plataforma Microsoft: Como desenvolver e suportar software que funciona",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/O88xLPJUi5p4RfPTs3gqB6CdU2-F7du4E2Xku88E6As_size_mode_3_size_1280x960_large.jpeg?v=1462562886",
+    "Price": 49.90
+  },
+  {
+    "Code": "089",
+    "Name": "Primeiros passos com Node.js",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/A9gNBliLeLHKixKHk4vm7GHXPqyOGTLwmaxbQbpHd5A_large.jpg?v=1498158325",
+    "Price": 49.90
+  },
+  {
+    "Code": "090",
+    "Name": "RSpec: Crie especificações executáveis em Ruby",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/rspec-featured_large.png?v=1416319123",
+    "Price": 49.90
+  },
+  {
+    "Code": "091",
+    "Name": "ABAP: O guia de sobrevivência do profissional moderno",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/abap-featured_large.png?v=1443800217",
+    "Price": 49.90
+  },
+  {
+    "Code": "092",
+    "Name": "Refatorando com padrões de projeto: Um guia em Ruby",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-Refatoracao-Ruby_large.jpg?v=1445627898",
+    "Price": 49.90
+  },
+  {
+    "Code": "093",
+    "Name": "Microsoft Kinect: Crie aplicações interativas",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/kinect-featured_large.png?v=1416319109",
+    "Price": 49.90
+  },
+  {
+    "Code": "094",
+    "Name": "Canivete suíço do desenvolvedor Node",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/KKrmIrJLg4wrrI3mGQL_VlVUenEaSaNVRscaD6HlQvU_size_mode_2_size_1024x768_large.jpeg?v=1446834644",
+    "Price": 49.90
+  },
+  {
+    "Code": "095",
+    "Name": "DSL: Quebre a barreira entre desenvolvimento e negócios",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/ed1YIZAA4ox3jKxh2EeUSYMiJu7W4tM0paCt2R7sDoo_large.jpg?v=1497039745",
+    "Price": 49.90
+  },
+  {
+    "Code": "096",
+    "Name": "Octave: Seus primeiros passos na programação científica",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/isvvZtPdj_hi28pBwwPJRuQz5bvR9spqTKpO22oGQQ4_size_mode_3_size_800x600_large.jpeg?v=1449257973",
+    "Price": 49.90
+  },
+  {
+    "Code": "097",
+    "Name": "Rust: Concorrência e alta performance com segurança",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/OkxDC_Jtm1vRucUKmb0tiQCh6LpslM-vEJ51KRVyvgg_large.jpg?v=1512710194",
+    "Price": 49.90
+  },
+  {
+    "Code": "098",
+    "Name": "Programação Funcional e Concorrente em Rust",
+    "Category": "Livros de Programação / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/fjRCXKbPMIcdYdC5HjX_nh6yUyQwwxV6aIOE7G_nYS4_large.jpg?v=1519941170",
+    "Price": 49.90
+  },
+  {
+    "Code": "099",
+    "Name": "Swift: Programe para iPhone e iPad",
+    "Category": "Livros de Mobile / IOS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Swift-ebook_large.png?v=1418170204",
+    "Price": 49.90
+  },
+  {
+    "Code": "100",
+    "Name": "iOS: Programe para iPhone e iPad",
+    "Category": "Livros de Mobile / IOS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/iphone-ipad-ios-featured_large.png?v=1411490094",
+    "Price": 49.90
+  },
+  {
+    "Code": "101",
+    "Name": "Desenvolvimento de Jogos para iOS: Explore sua imaginação com o framework Cocos2D",
+    "Category": "Livros de Mobile / IOS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-ios-featured_large.png?v=1411488760",
+    "Price": 49.90
+  },
+  {
+    "Code": "102",
+    "Name": "Google Android: crie aplicações para celulares e tablets",
+    "Category": "Livros de Mobile / Android",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/android-featured_large.png?v=1411489561",
+    "Price": 49.90
+  },
+  {
+    "Code": "103",
+    "Name": "Desenvolvimento de Jogos para Android: Explore sua imaginação com o framework Cocos2D",
+    "Category": "Livros de Mobile / Android",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-android-featured_large.png?v=1411488637",
+    "Price": 49.90
+  },
+  {
+    "Code": "104",
+    "Name": "Jogos Android: Crie um game do zero usando classes nativas",
+    "Category": "Livros de Mobile / Android",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/games-android-featured_large.png?v=1433544805",
+    "Price": 49.90
+  },
+  {
+    "Code": "105",
+    "Name": "Entrega contínua em Android: Como automatizar a distribuição de apps",
+    "Category": "Livros de Mobile / Android",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/33JmvoJMSmMmf2E7Qns5gMEO7R7PjA1GmyHAQP4RFj0_large.jpg?v=1475188090",
+    "Price": 49.90
+  },
+  {
+    "Code": "106",
+    "Name": "App Inventor: Seus primeiros aplicativos Android",
+    "Category": "Livros de Mobile / Android",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/CaMWGHXUhWVSWaH4aZazotOcKm3ckVDokQ0IQ5fM0KU_large.jpg?v=1512148345",
+    "Price": 49.90
+  },
+  {
+    "Code": "107",
+    "Name": "Aplicações mobile híbridas com Cordova e PhoneGap",
+    "Category": "Livros de Mobile / Multiplataforma",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/KfILNc_rMuuHlT3Jgh1nLQWbAM9Ct8Y_3egeItyVI-s_size_mode_3_size_1024x768_large.jpeg?v=1454700566",
+    "Price": 49.90
+  },
+  {
+    "Code": "108",
+    "Name": "Xamarin Forms: Desenvolvimento de aplicações móveis multiplataforma",
+    "Category": "Livros de Mobile / Multiplataforma",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/r6aF8viT0zglCz5-d5UQhZHSAhBVot7lXiqjgEpd8tg_large.jpg?v=1484342109",
+    "Price": 49.90
+  },
+  {
+    "Code": "109",
+    "Name": "Ionic Framework: Construa aplicativos para todas as plataformas mobile",
+    "Category": "Livros de Mobile / Multiplataforma",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/OsdcfBgqoPY_jv4WXwum3vhGtACPSTDD8MT6eUXHRfo_large.jpg?v=1498853001",
+    "Price": 49.90
+  },
+  {
+    "Code": "110",
+    "Name": "Cordova avançado e PhoneGap: Um guia detalhado do zero à publicação",
+    "Category": "Livros de Mobile / Multiplataforma",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-Cordova-Avancado-Phonegap_large.jpg?v=1520620175",
+    "Price": 49.90
+  },
+  {
+    "Code": "111",
+    "Name": "Criando aplicações para o seu Windows Phone",
+    "Category": "Livros de Mobile / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/windows-phone-featured_large.png?v=1411487947",
+    "Price": 49.90
+  },
+  {
+    "Code": "112",
+    "Name": "Progressive Web Apps: Construa aplicações progressivas com React",
+    "Category": "Livros de Mobile / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/aEqPKxA4VUIMcHNjYFHdKwfTqWB70NGgvn15jJrXlAM_large.jpg?v=1522973294",
+    "Price": 49.90
+  },
+  {
+    "Code": "113",
+    "Name": "Criando aplicações para o seu Windows Phone - Edição Windows Runtime",
+    "Category": "Livros de Mobile / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/windows-phone-runtime-featured_large.png?v=1416318048",
+    "Price": 49.90
+  },
+  {
+    "Code": "114",
+    "Name": "HTML5 e CSS3: Domine a web do futuro",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/html-css-featured_large.png?v=1411489770",
+    "Price": 49.90
+  },
+  {
+    "Code": "115",
+    "Name": "Web Design Responsivo: Páginas adaptáveis para todos os dispositivos",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/web-design-responsivo-featured_large.png?v=1411568121",
+    "Price": 49.90
+  },
+  {
+    "Code": "116",
+    "Name": "A Web Mobile: Design Responsivo e além para uma Web adaptada ao mundo mobile",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jM-9N3EJ5W36s1moB8JUhN2UnwhUMxWGRIASKVPyx1w_large.jpg?v=1469559874",
+    "Price": 49.90
+  },
+  {
+    "Code": "117",
+    "Name": "Desenvolva jogos com HTML5 Canvas e JavaScript",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-html-javascript-featured_large.png?v=1411488497",
+    "Price": 49.90
+  },
+  {
+    "Code": "118",
+    "Name": "Coletânea Front-end: Uma antologia da comunidade front-end brasileira",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/coletanea-front-end-featured_large.png?v=1411487157",
+    "Price": 49.90
+  },
+  {
+    "Code": "119",
+    "Name": "CSS Eficiente: Técnicas e ferramentas que fazem a diferença nos seus estilos",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/css-eficiente-featured_large.png?v=1435245145",
+    "Price": 49.90
+  },
+  {
+    "Code": "120",
+    "Name": "Jogos em HTML5: Explore o mobile e física",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-mobile-cordova-featured_large.png?v=1413474311",
+    "Price": 49.90
+  },
+  {
+    "Code": "121",
+    "Name": "Sass: Aprendendo pré-processadores CSS",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/8vHZ_JPjjeGbJlEQ7oOrMuqep7XWeLUhKOJ2KZW2wlw_large.jpg?v=1470340758",
+    "Price": 49.90
+  },
+  {
+    "Code": "122",
+    "Name": "Turbine seu CSS: Folhas de estilo inteligentes com Sass",
+    "Category": "Livros de Front-end / HTML e CSS",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/UtsjsksRzpBazwXpCYBVASxHRrhHeLxopPGZxoyExbw_large.jpg?v=1478227993",
+    "Price": 49.90
+  },
+  {
+    "Code": "123",
+    "Name": "Dominando JavaScript com jQuery",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/javascript-jquery-featured_large.png?v=1416319134",
+    "Price": 49.90
+  },
+  {
+    "Code": "124",
+    "Name": "Mean: Full stack JavaScript para aplicações web com MongoDB, Express, Angular e Node",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/mean-featured_large.png?v=1423666173",
+    "Price": 49.90
+  },
+  {
+    "Code": "125",
+    "Name": "Crie aplicações com Angular: O novo framework do Google",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-Aplicacoes-com-Angular_large.jpg?v=1494010530",
+    "Price": 49.90
+  },
+  {
+    "Code": "126",
+    "Name": "Cangaceiro JavaScript: Uma aventura no sertão da programação",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/RXIaHuuVYefHy39KW2diszLgVUvKG87YLKgeC5PYTAc_large.jpg?v=1502478264",
+    "Price": 49.90
+  },
+  {
+    "Code": "127",
+    "Name": "Desenvolva jogos com HTML5 Canvas e JavaScript",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/jogos-html-javascript-featured_large.png?v=1411488497",
+    "Price": 49.90
+  },
+  {
+    "Code": "128",
+    "Name": "Coletânea Front-end: Uma antologia da comunidade front-end brasileira",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/coletanea-front-end-featured_large.png?v=1411487157",
+    "Price": 49.90
+  },
+  {
+    "Code": "129",
+    "Name": "ECMAScript 6: Entre de cabeça no futuro do JavaScript",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/yPVDxju4tCeqY45tdQtvOZo6bdCztD7A1gUZHRoZ5wU_large.jpg?v=1490381498",
+    "Price": 49.90
+  },
+  {
+    "Code": "130",
+    "Name": "Meteor: Criando aplicações web real-time com JavaScript",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/meteor-featured_large.png?v=1411565690",
+    "Price": 49.90
+  },
+  {
+    "Code": "131",
+    "Name": "Vue.js: Construa aplicações incríveis",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Vue_large.jpg?v=1492717370",
+    "Price": 49.90
+  },
+  {
+    "Code": "132",
+    "Name": "Front-end com Vue.js: Da teoria à prática sem complicações",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-Front-end-com-Vue-js_large.jpg?v=1511489591",
+    "Price": 49.90
+  },
+  {
+    "Code": "133",
+    "Name": "Protractor: Lições sobre testes end-to-end automatizados",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/B-mir_JQ1is69BkwR8g-eBkv0Ky2QKIQVwlVSaAa8x4_large.jpg?v=1478889395",
+    "Price": 49.90
+  },
+  {
+    "Code": "134",
+    "Name": "jQuery Mobile: Desenvolva interfaces para múltiplos dispositivos",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/6t6DormKtTIMPV06egfeaUHUa0sAP79DihlJJ7K3vmQ_size_mode_3_size_1024x768_large.jpeg?v=1459277667",
+    "Price": 49.90
+  },
+  {
+    "Code": "135",
+    "Name": "Ember.js: Conheça o framework para aplicações web ambiciosas",
+    "Category": "Livros de Front-end / JavaScript",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/EIKdn62H5LCW-Y77vHzu4gq4LmOabOXc-1dVwpXgrDQ_large.jpg?v=1503665311",
+    "Price": 49.90
+  },
+  {
+    "Code": "136",
+    "Name": "Guia Front-End: O caminho das pedras para ser um dev Front-End",
+    "Category": "Livros de Front-end / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/guia-frontend-featured_large.png?v=1430861593",
+    "Price": 49.90
+  },
+  {
+    "Code": "137",
+    "Name": "Introdução à Web Semântica: A inteligência da informação",
+    "Category": "Livros de Front-end / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/C7cRqydGoXf7sYXGhgrNw0c_n1e8XVTl30r4nKjVV9g_large.jpg?v=1505503224",
+    "Price": 49.90
+  },
+  {
+    "Code": "138",
+    "Name": "Progressive Web Apps: Construa aplicações progressivas com React",
+    "Category": "Livros de Front-end / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/aEqPKxA4VUIMcHNjYFHdKwfTqWB70NGgvn15jJrXlAM_large.jpg?v=1522973294",
+    "Price": 49.90
+  },
+  {
+    "Code": "139",
+    "Name": "Desconstruindo a Web: As tecnologias por trás de uma requisição",
+    "Category": "Livros de Infraestrutura / Redes",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Xchinb4LgqfBhX3PDCrk_1PhP-e8xqEQulmXt3l2Ubk_large.jpg?v=1472159580",
+    "Price": 49.90
+  },
+  {
+    "Code": "140",
+    "Name": "Desenvolvimento web com PHP e MySQL",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cover_large.jpg?v=1477073475",
+    "Price": 49.90
+  },
+  {
+    "Code": "141",
+    "Name": "MongoDB: Construa novas aplicações com novas tecnologias",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/mongodb-featured_large.png?v=1423661720",
+    "Price": 49.90
+  },
+  {
+    "Code": "142",
+    "Name": "Big Data: Técnicas e tecnologias para extração de valor dos dados",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/4MRnPs-gpoIYhwqavVoX2Mc64HktcIqFtQOyX8x0yDo_large.jpg?v=1480680976",
+    "Price": 49.90
+  },
+  {
+    "Code": "143",
+    "Name": "MySQL: Comece com o principal banco de dados open source do mercado",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/bancomysql-featured_large.png?v=1437417574",
+    "Price": 49.90
+  },
+  {
+    "Code": "144",
+    "Name": "PL/SQL: Domine a linguagem do banco de dados Oracle",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/plsql-featured_large.png?v=1434740236",
+    "Price": 49.90
+  },
+  {
+    "Code": "145",
+    "Name": "SQL: Uma abordagem para bancos de dados Oracle",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/Amazon-SQL-Oracle_large.jpg?v=1416425806",
+    "Price": 49.90
+  },
+  {
+    "Code": "146",
+    "Name": "Machine Learning: Introdução à classificação",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/3Z-lkXuKGocz6w7BqNQA5VliFXOhOiEEZWy4rVI23KM_large.jpg?v=1508514002",
+    "Price": 49.90
+  },
+  {
+    "Code": "147",
+    "Name": "Elasticsearch: Consumindo dados real-time com ELK",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/yhNMnf94VN2SR0dh0B5R282kei0hlLCFW2P90qYm8Nw_size_mode_3_size_1024x768_large.jpeg?v=1458329541",
+    "Price": 49.90
+  },
+  {
+    "Code": "148",
+    "Name": "Business Intelligence: Implementar do jeito certo e a custo zero",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/vVWirlCq9G_fBkVCaXORAxIuYG_F0-gZ_M49f7b8vhA_large.jpg?v=1487964576",
+    "Price": 49.90
+  },
+  {
+    "Code": "149",
+    "Name": "NoSQL: Como armazenar os dados de uma aplicação moderna",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/QJqAPTPE3N1YMoK32lk4dVw2XtfE6jmYTk-u1SahDYE_large.jpg?v=1469129941",
+    "Price": 49.90
+  },
+  {
+    "Code": "150",
+    "Name": "Armazenando dados com Redis",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/redis-featured_large.png?v=1411486861",
+    "Price": 49.90
+  },
+  {
+    "Code": "151",
+    "Name": "PostgreSQL: Banco de dados para aplicações web modernas",
+    "Category": "Livros de Infraestrutura / Dados",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eFkRLwyjeOC9WaY2iNllrpf1zbpjYeA488RG0tjKfCA_large.jpg?v=1489173482",
+    "Price": 49.90
+  },
+  {
+    "Code": "152",
+    "Name": "Controlando versões com Git e GitHub",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/git-github-featured_large.png?v=1416318040",
+    "Price": 49.90
+  },
+  {
+    "Code": "153",
+    "Name": "DevOps na prática: entrega de software confiável e automatizada",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/devops-featured_large.png?v=1411489207",
+    "Price": 49.90
+  },
+  {
+    "Code": "154",
+    "Name": "Containers com Docker: Do desenvolvimento à produção",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/docker-featured_large.png?v=1443938715",
+    "Price": 49.90
+  },
+  {
+    "Code": "155",
+    "Name": "Caixa de Ferramentas DevOps: Um guia para construção, administração e arquitetura de sistemas modernos",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/oy0mvtYotVNh0eUSt2CAC3Kf7j_qtMIxtd31jNUYP08_size_1024x768_size_mode_2_large.jpeg?v=1438176025",
+    "Price": 49.90
+  },
+  {
+    "Code": "156",
+    "Name": "Jenkins: Automatize tudo sem complicações",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/8xOWMz71yXGZIMXnCx6qABbwj0p_CcsMlImoan5WqMU_size_mode_3_size_800x600_large.jpeg?v=1455905976",
+    "Price": 49.90
+  },
+  {
+    "Code": "157",
+    "Name": "Começando com o Linux: Comandos, serviços e administração",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/linux-featured_large.png?v=1411487268",
+    "Price": 49.90
+  },
+  {
+    "Code": "158",
+    "Name": "Segurança em aplicações Web",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/zhQRY_vRi2-piaw5QkZpc552fcVQhN6fe4zLRb4fXV8_large.jpg?v=1486751361",
+    "Price": 49.90
+  },
+  {
+    "Code": "159",
+    "Name": "Thoughtworks Antologia Brasil: Histórias de aprendizado e inovação",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/thoughtworks-antologia-featured_large.png?v=1416319002",
+    "Price": 49.90
+  },
+  {
+    "Code": "160",
+    "Name": "Arduino: Guia para colocar suas ideias em prática",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/WGzoHaBKLOVQ3DrSAPWAPZADt1Wzl2Tsb8aMv4PBRmc_size_mode_3_size_1024x768_large.jpeg?v=1456781791",
+    "Price": 49.90
+  },
+  {
+    "Code": "161",
+    "Name": "Arduino prático: 10 projetos para executar, aprender, modificar e dominar o mundo",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/x5J0eymPWtNlvnK1hYy6rGWXHPmsSdGTQHOZAAe9oAo_large.jpg?v=1473971665",
+    "Price": 49.90
+  },
+  {
+    "Code": "162",
+    "Name": "Azure: Coloque suas plataformas e serviços no cloud",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/azure-featured_large.png?v=1443932991",
+    "Price": 49.90
+  },
+  {
+    "Code": "163",
+    "Name": "Desenvolvimento efetivo na plataforma Microsoft: Como desenvolver e suportar software que funciona",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/O88xLPJUi5p4RfPTs3gqB6CdU2-F7du4E2Xku88E6As_size_mode_3_size_1280x960_large.jpeg?v=1462562886",
+    "Price": 49.90
+  },
+  {
+    "Code": "164",
+    "Name": "Google App Engine: Construindo serviços na nuvem",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/wcDpyDSPxRrpeqG0itn55xvz_sD_BZ_LdhTtnEDtTlM_large.jpg?v=1519321935",
+    "Price": 49.90
+  },
+  {
+    "Code": "165",
+    "Name": "Entrega contínua em Android: Como automatizar a distribuição de apps",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/33JmvoJMSmMmf2E7Qns5gMEO7R7PjA1GmyHAQP4RFj0_large.jpg?v=1475188090",
+    "Price": 49.90
+  },
+  {
+    "Code": "166",
+    "Name": "Windows Server 2012 R2: Estudo dirigido para MCSA prova 70-410",
+    "Category": "Livros de Infraestrutura / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/WWEj2kGc3k4Bve9orZZbOd15jjodVei1MZcclEfi0fs_large.jpg?v=1467406490",
+    "Price": 49.90
+  },
+  {
+    "Code": "167",
+    "Name": "Guia da Startup: Como startups e empresas estabelecidas podem criar produtos de software rentáveis",
+    "Category": "Livros de Business / Startups",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cover_f0c223aa-023e-415b-8389-a942213aae39_large.jpg?v=1486151929",
+    "Price": 49.90
+  },
+  {
+    "Code": "168",
+    "Name": "Direto ao Ponto: Criando produtos de forma enxuta",
+    "Category": "Livros de Business / Startups",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Direto-ao-Ponto_large.jpg?v=1464960251",
+    "Price": 49.90
+  },
+  {
+    "Code": "169",
+    "Name": "Thoughtworks Antologia Brasil: Histórias de aprendizado e inovação",
+    "Category": "Livros de Business / Startups",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/thoughtworks-antologia-featured_large.png?v=1416319002",
+    "Price": 49.90
+  },
+  {
+    "Code": "170",
+    "Name": "Economia do acesso: e os modelos de negócios baseados em compartilhamento, recorrência e assinatura",
+    "Category": "Livros de Business / Startups",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/3HNP-14BhN5hpGETS6T2GAZFHGWY9f8dZprBuXZYA0_size_mode_3_size_1280x960_large.jpeg?v=1463167564",
+    "Price": 49.90
+  },
+  {
+    "Code": "171",
+    "Name": "A jornada do empreendedor: O herói da nossa Era",
+    "Category": "Livros de Business / Startups",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/EeWu4o4nvz9o71nSFnXAhPmu4BiMyGP7x5Pz0tJU3dk_large.jpg?v=1469752875",
+    "Price": 49.90
+  },
+  {
+    "Code": "172",
+    "Name": "Making it right: Gestão de produtos no mundo das startups",
+    "Category": "Livros de Business / Startups",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/vHczg36xNj-2MA4rleZpsAgmgq6lXJGUVEBKJgUJPqI_large.jpg?v=1485524045",
+    "Price": 49.90
+  },
+  {
+    "Code": "173",
+    "Name": "SEO Prático: Seu site na primeira página das buscas",
+    "Category": "Livros de Business / Marketing Digital",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/seo-featured_large.png?v=1426525491",
+    "Price": 49.90
+  },
+  {
+    "Code": "174",
+    "Name": "Marketing de conteúdo: Estratégias para entregar o que seu público quer consumir",
+    "Category": "Livros de Business / Marketing Digital",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/LmEF4CZHTvOQvVcAsRRrK_Z934Qg0SBfvgcr504Zo5I_large.jpg?v=1514400743",
+    "Price": 49.90
+  },
+  {
+    "Code": "175",
+    "Name": "Gestão de produtos de software: Como aumentar as chances de sucesso do seu software",
+    "Category": "Livros de Business / Gestão",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/eBook-Gestao-Produtos_c1f1bc3e-bfe9-4895-b1cd-bcb953c46760_large.jpg?v=1502143769",
+    "Price": 49.90
+  },
+  {
+    "Code": "176",
+    "Name": "Métricas Ágeis: Obtenha melhores resultados em sua equipe",
+    "Category": "Livros de Business / Gestão",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/1LlcgWKh__jzqodxR2OcWo8YohpsnMDP_jXYwOg2gA8_large.jpg?v=1496438774",
+    "Price": 49.90
+  },
+  {
+    "Code": "177",
+    "Name": "Lean Enterprise: Como empresas de alta performance inovam em escala",
+    "Category": "Livros de Business / Gestão",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/W3JO_ox0eK5rIoNORSH4y45lqrnZ-AK2QpWIujjcQg_large.jpg?v=1470949466",
+    "Price": 49.90
+  },
+  {
+    "Code": "178",
+    "Name": "A jornada do empreendedor: O herói da nossa Era",
+    "Category": "Livros de Business / Gestão",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/EeWu4o4nvz9o71nSFnXAhPmu4BiMyGP7x5Pz0tJU3dk_large.jpg?v=1469752875",
+    "Price": 49.90
+  },
+  {
+    "Code": "179",
+    "Name": "Making it right: Gestão de produtos no mundo das startups",
+    "Category": "Livros de Business / Gestão",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/vHczg36xNj-2MA4rleZpsAgmgq6lXJGUVEBKJgUJPqI_large.jpg?v=1485524045",
+    "Price": 49.90
+  },
+  {
+    "Code": "180",
+    "Name": "Scrum: Gestão ágil para projetos de sucesso",
+    "Category": "Livros de Business / Agile",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/cover_large.jpeg?v=1465238631",
+    "Price": 49.90
+  },
+  {
+    "Code": "181",
+    "Name": "Agile: Desenvolvimento de software com entregas frequentes e foco no valor de negócio",
+    "Category": "Livros de Business / Agile",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/agile-featured_large.png?v=1411485880",
+    "Price": 49.90
+  },
+  {
+    "Code": "182",
+    "Name": "Métricas Ágeis: Obtenha melhores resultados em sua equipe",
+    "Category": "Livros de Business / Agile",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/1LlcgWKh__jzqodxR2OcWo8YohpsnMDP_jXYwOg2gA8_large.jpg?v=1496438774",
+    "Price": 49.90
+  },
+  {
+    "Code": "183",
+    "Name": "eXtreme Programming: Práticas para o dia a dia no desenvolvimento ágil de software",
+    "Category": "Livros de Business / Agile",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/MWv_cGrvQEiSB16qd6Qrr7_29jPyP0tUVVlSsQ2kAIQ_size_1024x768_size_mode_2_large.jpeg?v=1438803579",
+    "Price": 49.90
+  },
+  {
+    "Code": "184",
+    "Name": "Scrum 360: Um guia completo e prático de agilidade",
+    "Category": "Livros de Business / Agile",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/scrum360-featured_large.png?v=1431473391",
+    "Price": 49.90
+  },
+  {
+    "Code": "185",
+    "Name": "O Programador Apaixonado: Construindo uma carreira notável em desenvolvimento de software",
+    "Category": "Livros de Business / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/programador-apaixonado-featured_large.png?v=1411566032",
+    "Price": 49.90
+  },
+  {
+    "Code": "186",
+    "Name": "O Mantra da Produtividade: Aprimore sua produtividade com técnicas de foco e organização pessoal",
+    "Category": "Livros de Business / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/1qy5CBjJoJSyXlraox4MkYn556p2hOPM3GNJQIoPHog_size_mode_3_size_1280x960_large.jpeg?v=1465568317",
+    "Price": 49.90
+  },
+  {
+    "Code": "187",
+    "Name": "Learning 3.0: Como os profissionais criativos aprendem",
+    "Category": "Livros de Business / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/felpddSkN3hHk1dmMBpBjw502Nv4RXZ4wdcHM1pvYL0_large.jpg?v=1501269391",
+    "Price": 49.90
+  },
+  {
+    "Code": "188",
+    "Name": "Lean Game Development: Desenvolvimento enxuto de jogos",
+    "Category": "Livros de Business / Outros",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/AMlqJB2HHf2DrJmOv7CcDavslB_Bn28__SmqTx0Ry9I_large.jpg?v=1492115019",
+    "Price": 49.90
+  },
+  {
+    "Code": "189",
+    "Name": "Introdução e boas práticas em UX Design",
+    "Category": "Livros de Design e UX / Geral",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/ux-user-experience-featured_large.png?v=1411490013",
+    "Price": 49.90
+  },
+  {
+    "Code": "190",
+    "Name": "Conhecendo o Adobe Photoshop CS6",
+    "Category": "Livros de Design e UX / Geral",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/photoshop-featured_large.png?v=1411487476",
+    "Price": 49.90
+  },
+  {
+    "Code": "191",
+    "Name": "Edição e organização de fotos com Adobe Lightroom",
+    "Category": "Livros de Design e UX / Geral",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/adobe-lightroom-featured_large.png?v=1416316972",
+    "Price": 49.90
+  },
+  {
+    "Code": "192",
+    "Name": "Vale presente Casa do Código",
+    "Category": "Livros de Design e UX / Geral",
+    "Src": "http://cdn.shopify.com/s/files/1/0155/7645/products/vale-presente-CDC_large.png?v=1451330431",
+    "Price": 49.90
+  }
+]

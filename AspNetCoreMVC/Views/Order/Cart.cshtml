@@ -1,0 +1,117 @@
+﻿@model CartViewModel;
+
+<h3>My Cart</h3>
+
+<form asp-action="cart" method="post">
+</form>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="pull-right">
+            <a class="btn btn-success" asp-action="Carousel">
+                Add Product
+            </a>
+            <a class="btn btn-success" asp-action="Register">
+                Create an account
+            </a>
+        </div>
+    </div>
+</div>
+<br />
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+
+        <div class="row">
+            <div class="col-md-6">
+                Item
+            </div>
+            <div class="col-md-2 text-center">
+                Unit Price
+            </div>
+            <div class="col-md-2 text-center">
+                Amount
+            </div>
+            <div class="col-md-2">
+                <span class="pull-right">
+                    Subtotal
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+
+        @foreach (var item in Model.Itens)
+        {
+
+            <div class="row row-center product-line" item-id="@(item.Id)">
+                <div class="col-md-3">
+                    <img class="product-cart-img" src="/images/products/large_@(item.Product.Code).jpg" />
+                </div>
+                <div class="col-md-3">@(item.Product.Name)</div>
+                <div class="col-md-2 text-center">R$ @(item.UnitPrice)</div>
+                <div class="col-md-2 text-center">
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" onclick="cart.clickDecrement(this)">
+                                <span class="glyphicon-minus"></span>
+                            </button>
+                        </span>
+                        <input type="text" value="@(item.Amount)"
+                               class="form-control text-center"
+                               onblur="cart.updateAmount(this)" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default"
+                                    onclick="cart.clickIncrement(this)">
+                                <span class="glyphicon-plus"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    R$ <span class="pull-right" subtotal>
+                        @(item.Amount * item.UnitPrice)
+                    </span>
+                </div>
+            </div>
+
+        }
+
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-10">
+                <span number-itens>
+                    Total: @(Model.Itens.Count())
+                    itens
+                </span>
+            </div>
+            <div class="col-md-2">
+                Total: R$ <span class="pull-right" total>
+                    @(Model.Total)
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="pull-right">
+            <a class="btn btn-success" asp-action="Carousel">
+                Add Product
+            </a>
+            <a class="btn btn-success" asp-action="Register">
+                Create an account
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+    <script src="~/js/Cart.js">
+
+    </script>
+
+}
