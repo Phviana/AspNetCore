@@ -1,6 +1,8 @@
-﻿using AspNetCoreMVC.Models;
+﻿using AspNetCoreMVC.Areas.Identity.Data;
+using AspNetCoreMVC.Models;
 using AspNetCoreMVC.Models.ViewModel;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -23,16 +25,19 @@ namespace AspNetCoreMVC.Repository
         private readonly IHttpContextAccessor httpContextAccessor;
         private readonly IHttpHelper httpHelper;
         private readonly IRegisterRepository registerRepository;
+        private readonly UserManager<AppIdentityUser> userManager;
 
         public OrderRepository(ApplicationContext context, 
                 IHttpContextAccessor httpContextAccessor,
                 IConfiguration configuration,
                 IHttpHelper sessionHelper,
-                IRegisterRepository registerRepository) : base(context, configuration)
+                IRegisterRepository registerRepository,
+                UserManager<AppIdentityUser> userManager) : base(context, configuration)
         {
             this.httpContextAccessor = httpContextAccessor;
             this.httpHelper = sessionHelper;
             this.registerRepository = registerRepository;
+            this.userManager = userManager;
         }
 
         public async Task AddItemAsync(string code)
@@ -77,7 +82,9 @@ namespace AspNetCoreMVC.Repository
 
             if (order == null)
             {
-                order = new Order(httpHelper.GetRegister());
+                var claimsPrincipal = httpContextAccessor.HttpContext.User;
+                var clientId = userManager.GetUserId(claimsPrincipal);
+                order = new Order(clientId);
                 await dbSet.AddAsync(order);
                 await context.SaveChangesAsync();
                 httpHelper.SetOrderId(order.Id);

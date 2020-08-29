@@ -9,13 +9,15 @@ namespace AspNetCoreMVC.Models
 {
     public class Order : BaseModel
     {
-        public Order()
+        public Order(string clientId)
         {
+            ClientId = clientId;
             Register = new Register();
         }
 
-        public Order(Register register)
+        public Order(string clientId, Register register)
         {
+            ClientId = clientId;
             Register = register;
         }   
 
@@ -24,5 +26,7 @@ namespace AspNetCoreMVC.Models
         public virtual Register Register { get; private set; }
         [ForeignKey("CadastroId")]
         public int RegisterId { get; private set; }
+        [Required]
+        public string ClientId { get; set; }
     }
 }

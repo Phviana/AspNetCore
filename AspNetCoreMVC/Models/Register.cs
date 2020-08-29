@@ -33,12 +33,12 @@ namespace AspNetCoreMVC.Models
         [Required]
         public string UF { get; set; } = "";
         [Required]
-        public string CEP { get; set; } = "";
+        public string ZipCode { get; set; } = "";
 
         internal void Update(Register newRegister)
         {
             this.Name = newRegister.Name;
-            this.CEP = newRegister.CEP;
+            this.ZipCode = newRegister.ZipCode;
             this.Email = newRegister.Email;
             this.Telephone = newRegister.Telephone;
             this.Address = newRegister.Address;
@@ -53,7 +53,7 @@ namespace AspNetCoreMVC.Models
             return new Register
             {
                 Neighborhood = this.Neighborhood,
-                CEP = this.CEP,
+                ZipCode = this.ZipCode,
                 Complement = this.Complement,
                 Email = this.Email,
                 Address = this.Address,
