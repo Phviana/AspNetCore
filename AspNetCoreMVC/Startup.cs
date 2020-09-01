@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using AspNetCoreMVC.Repository;
 using Microsoft.AspNetCore.Builder;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Options;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -46,17 +48,40 @@ namespace AspNetCoreMVC
             services.AddTransient<IOrderRepository, OrderRepository>();
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddTransient<IHttpHelper, HttpHelper>();
+            services.AddTransient<IReportHelper, ReportHelper>();
 
-            services.AddAuthentication()
-                .AddMicrosoftAccount(options =>
+            //services.AddAuthentication()
+            //    .AddMicrosoftAccount(options =>
+            //    {
+            //        options.ClientId = Configuration["ExternalLogin:Microsoft:ClientId"];
+            //        options.ClientSecret = Configuration["ExternalLogin:Microsoft:ClientSecret"];
+            //    });
+
+
+            services.AddAuthentication(options =>
+            {
+                //Authentication user form
+                options.DefaultScheme = "Cookies";
+                // Protocol that defines the authentication flow
+                options.DefaultChallengeScheme = "OpenIdConnect";
+
+            })
+                .AddCookie()
+                .AddOpenIdConnect(options =>
                 {
-                    options.ClientId = Configuration["ExternalLogin:Microsoft:ClientId"];
-                    options.ClientSecret = Configuration["ExternalLogin:Microsoft:ClientSecret"];
+                    options.SignInScheme = "Cookies";
+                    options.Authority = Configuration["AspNetCoreMVC.IdentityServer_Url"];
+                    options.ClientId = "ASPNETCOREMVC";
+                    options.ClientSecret = "49C1A7E1-0C79-4A89-A3D6-A37998FB86B0";
+                    options.SaveTokens = true;
+                    options.ResponseType = "code id_token";
+                    options.RequireHttpsMetadata = false;
                 });
- 
 
             services.AddDistributedMemoryCache();
             services.AddSession();
+
+            services.AddHttpClient<IReportHelper,ReportHelper>();
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

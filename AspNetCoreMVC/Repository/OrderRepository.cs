@@ -26,18 +26,21 @@ namespace AspNetCoreMVC.Repository
         private readonly IHttpHelper httpHelper;
         private readonly IRegisterRepository registerRepository;
         private readonly UserManager<AppIdentityUser> userManager;
+        private readonly IReportHelper reportHelper;
 
         public OrderRepository(ApplicationContext context, 
                 IHttpContextAccessor httpContextAccessor,
                 IConfiguration configuration,
                 IHttpHelper sessionHelper,
                 IRegisterRepository registerRepository,
-                UserManager<AppIdentityUser> userManager) : base(context, configuration)
+                UserManager<AppIdentityUser> userManager,
+                IReportHelper reportHelper) : base(context, configuration)
         {
             this.httpContextAccessor = httpContextAccessor;
             this.httpHelper = sessionHelper;
             this.registerRepository = registerRepository;
             this.userManager = userManager;
+            this.reportHelper = reportHelper;
         }
 
         public async Task AddItemAsync(string code)
@@ -126,6 +129,7 @@ namespace AspNetCoreMVC.Repository
             await registerRepository.UpdateAsync(order.Register.Id, register);
             httpHelper.ResetOrderId();
             httpHelper.SetRegister(order.Register);
+            await reportHelper.CreateReport(order);
             return order;
         }
 

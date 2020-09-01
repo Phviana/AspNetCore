@@ -1,0 +1,6 @@
+﻿
+    Code: {0:00000}
+    Unit Price: {1:C2}
+    Description: {2}
+    Amount: {3:000}
+    Subtotal: {4:C2}
