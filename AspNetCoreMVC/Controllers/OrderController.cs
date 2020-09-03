@@ -59,18 +59,20 @@ namespace AspNetCoreMVC.Controllers
                 return RedirectToAction("Carousel");
             }
 
-            var user = await userManager.GetUserAsync(this.User);
+            //var user = await userManager.GetUserAsync(this.User);
 
-            order.Register.Email = user.Email;
-            order.Register.Telephone = user.Telephone;
-            order.Register.Name = user.Name;
-            order.Register.Address = user.Address;
-            order.Register.Complement = user.Complement;
-            order.Register.ZipCode = user.ZipCode;
-            order.Register.UF = user.State;
-            order.Register.Neighborhood = user.Neighborhood;
-            order.Register.County = user.County;
-            
+            //order.Register.Email = user.Email;
+            //order.Register.Telephone = user.Telephone;
+            //order.Register.Name = user.Name;
+            //order.Register.Address = user.Address;
+            //order.Register.Complement = user.Complement;
+            //order.Register.ZipCode = user.ZipCode;
+            //order.Register.UF = user.State;
+            //order.Register.Neighborhood = user.Neighborhood;
+            //order.Register.County = user.County;
+
+            order.Register.Name = User.FindFirst("name")?.Value;
+            order.Register.Email = User.FindFirst("email")?.Value;
 
             return View(order.Register);
         }
@@ -82,19 +84,21 @@ namespace AspNetCoreMVC.Controllers
             if (ModelState.IsValid)
             {
 
-                var user = await userManager.GetUserAsync(this.User);
+                //var user = await userManager.GetUserAsync(this.User);
 
-                user.Email = register.Email;
-                user.Telephone = register.Telephone;
-                user.Name = register.Name;
-                user.Address = register.Address;
-                user.Complement = register.Complement;
-                user.ZipCode = register.ZipCode;
-                user.State = register.UF;
-                user.Neighborhood = register.Neighborhood;
-                user.County = register.County;
+                //user.Email = register.Email;
+                //user.Telephone = register.Telephone;
+                //user.Name = register.Name;
+                //user.Address = register.Address;
+                //user.Complement = register.Complement;
+                //user.ZipCode = register.ZipCode;
+                //user.State = register.UF;
+                //user.Neighborhood = register.Neighborhood;
+                //user.County = register.County;
 
-                await userManager.UpdateAsync(user);
+                //await userManager.UpdateAsync(user);
+
+                register.Name = User.FindFirst("name")?.Value;
 
                 Order order = await orderRepository.UpdateRegisterAsync(register);
                 return View(order);

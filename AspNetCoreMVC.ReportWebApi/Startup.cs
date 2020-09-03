@@ -26,6 +26,19 @@ namespace AspNetCoreMVC.ReportWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            //1) validate token
+
+            // Barear: token on the network 
+            services.
+                AddAuthentication("Barear")
+                .AddIdentityServerAuthentication(options =>
+                {
+                    options.ApiName = "AspNetCoreMVC.ReportWebApi";
+                    options.ApiSecret = "49C1A7E1-0C79-4A89-A3D6-A37998FB86B0";
+                    options.Authority = Configuration["IdentityServer_Url"];
+                    options.RequireHttpsMetadata = false;
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,7 +53,8 @@ namespace AspNetCoreMVC.ReportWebApi
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            app.UseAuthentication();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

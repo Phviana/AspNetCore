@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,6 +28,7 @@ namespace AspNetCoreMVC.ReportWebApi.Controllers
         }
 
         // POST: api/Report
+        // [Authorize]
         [HttpPost]
         public void Post([FromBody] string value)
         {

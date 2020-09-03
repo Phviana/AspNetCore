@@ -1,8 +1,11 @@
 ﻿using AspNetCoreMVC.Models;
+using IdentityModel.Client;
+using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -31,7 +34,6 @@ namespace AspNetCoreMVC
         }
         public async Task CreateReport(Order order)
         {
-            
 
             string reportLine = await GetReportLine(order);
 
@@ -39,19 +41,49 @@ namespace AspNetCoreMVC
             // using (HttpClient httpClient = new HttpClient())
 
 
-                // content text (JSON)
-                var content = JsonConvert.SerializeObject(reportLine);
-                // HttpContent that pack the text
-                HttpContent httpContent = new StringContent(content, Encoding.UTF8, "application/json");
-                // URI = Uniform Resource Identifier
-                Uri baseUrl = new Uri(configuration["BaseUrl"]);
-                Uri uri = new Uri(baseUrl, URISTRING);
-                HttpResponseMessage httpResponse = await httpClient.PostAsync(uri, httpContent);
+            // content text (JSON)
+            var content = JsonConvert.SerializeObject(reportLine);
+            // HttpContent that pack the text
+            HttpContent httpContent = new StringContent(content, Encoding.UTF8, "application/json");
+            // URI = Uniform Resource Identifier
 
-                if (!httpResponse.IsSuccessStatusCode)
+            // get endpoint's token
+            var discoveryResponse = 
+            await httpClient.GetDiscoveryDocumentAsync(configuration["AspNetCoreMVC.IdentityServer_Url"]);
+
+            if (discoveryResponse.IsError)
+            {
+                throw new ApplicationException(discoveryResponse.Error);
+            }
+
+
+            var tokenResponse = await httpClient.RequestClientCredentialsTokenAsync(
+                new ClientCredentialsTokenRequest
                 {
-                    throw new ApplicationException(httpResponse.ReasonPhrase);
+                    Address = discoveryResponse.TokenEndpoint,
+                    ClientId = "ASPNETCOREMVC",
+                    ClientSecret = "49C1A7E1-0C79-4A89-A3D6-A37998FB86B0",
+                    Scope = "AspNetCoreMVC.ReportWebApi"
                 }
+                );
+
+            if (tokenResponse.IsError)
+            {
+                Debug.WriteLine(tokenResponse.IsError);
+                return;
+            }
+
+            httpClient.SetBearerToken(tokenResponse.AccessToken);
+            
+
+            Uri baseUrl = new Uri(configuration["BaseUrl"]);
+            Uri uri = new Uri(baseUrl, URISTRING);
+            HttpResponseMessage httpResponse = await httpClient.PostAsync(uri, httpContent);
+
+            if (!httpResponse.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(httpResponse.ReasonPhrase);
+            }
 
         }
 

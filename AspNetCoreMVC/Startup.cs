@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using AspNetCoreMVC.Repository;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -38,7 +40,7 @@ namespace AspNetCoreMVC
 
             var connectionString = Configuration.GetConnectionString("Default");
 
-            services.AddDbContext<ApplicationContext>(options => 
+            services.AddDbContext<ApplicationContext>(options =>
                             options.UseSqlServer(connectionString)
                             );
 
@@ -58,6 +60,8 @@ namespace AspNetCoreMVC
             //    });
 
 
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
             services.AddAuthentication(options =>
             {
                 //Authentication user form
@@ -66,23 +70,35 @@ namespace AspNetCoreMVC
                 options.DefaultChallengeScheme = "OpenIdConnect";
 
             })
-                .AddCookie()
+                .AddCookie("Cookies")
                 .AddOpenIdConnect(options =>
                 {
-                    options.SignInScheme = "Cookies";
-                    options.Authority = Configuration["AspNetCoreMVC.IdentityServer_Url"];
-                    options.ClientId = "ASPNETCOREMVC";
-                    options.ClientSecret = "49C1A7E1-0C79-4A89-A3D6-A37998FB86B0";
-                    options.SaveTokens = true;
-                    options.ResponseType = "code id_token";
-                    options.RequireHttpsMetadata = false;
+                options.SignInScheme = "Cookies";
+                options.Authority = Configuration["AspNetCoreMVC.IdentityServer_Url"];
+                options.ClientId = "ASPNETCOREMVC";
+                options.ClientSecret = "49C1A7E1-0C79-4A89-A3D6-A37998FB86B0";
+                options.SaveTokens = true;
+                options.ResponseType = "code id_token";
+                options.RequireHttpsMetadata = false;
+                options.GetClaimsFromUserInfoEndpoint = true;
+                options.Scope.Add("email");
+                    options.Events = new OpenIdConnectEvents
+                    {
+                        OnRemoteFailure = context =>
+                        {
+                            context.Response.Redirect("/");
+                            context.HandleResponse();
+
+                            return Task.FromResult(0);
+                        }
+                    };
                 });
 
             services.AddDistributedMemoryCache();
             services.AddSession();
 
-            services.AddHttpClient<IReportHelper,ReportHelper>();
-            
+            services.AddHttpClient<IReportHelper, ReportHelper>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -98,10 +114,10 @@ namespace AspNetCoreMVC
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
+            //app.UseCookiePolicy(new CookiePolicyOptions { MinimumSameSitePolicy = SameSiteMode.Strict });
+            app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseAuthentication();
             app.UseCookiePolicy();
 
             app.UseSession();

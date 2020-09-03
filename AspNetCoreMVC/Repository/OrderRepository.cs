@@ -86,7 +86,9 @@ namespace AspNetCoreMVC.Repository
             if (order == null)
             {
                 var claimsPrincipal = httpContextAccessor.HttpContext.User;
-                var clientId = userManager.GetUserId(claimsPrincipal);
+                // var clientId = userManager.GetUserId(claimsPrincipal);
+
+                var clientId = claimsPrincipal.FindFirst("sub")?.Value;
                 order = new Order(clientId);
                 await dbSet.AddAsync(order);
                 await context.SaveChangesAsync();
